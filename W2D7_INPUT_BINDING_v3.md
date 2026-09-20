@@ -1,7 +1,7 @@
 # Input binding — W2-d7 component certificate (v3)
 
 Status: COMPLETED AND VERIFIED.
-Extracted on 2026-09-20T19:24:51Z by extract_w2d7.py against verified archive.
+Extracted on 2026-09-20T19:30:59Z by extract_w2d7.py against verified archive.
 All 90 member hashes verified; tiling and popcount equivalence verified; determinism passed.
 
 Supersedes:
@@ -32,8 +32,8 @@ binding are created instead.
 ## Extractor identity
 
     Script:              extract_w2d7.py
-    Git commit:          2de083e8c1887e57a2b507465915c18e75bdb3c4 (ratification merge commit on main)
-    Execution timestamp: 2026-09-20T19:24:51Z
+    Git commit:          1c366f7ef45362d6dc4b63302c73698153200808 (contains extract_w2d7.py on feat/w2-d7-post-extraction)
+    Execution timestamp: 2026-09-20T19:30:59Z
     Command line:        python3 extract_w2d7.py
     Popcount equivalence check run: YES — 30/30 experiments match vectorised vs author loop exactly (PASS)
 
@@ -190,6 +190,11 @@ measured_sha256 != expected_sha256, for any of the 90 rows.
     (ddof=1 is not invoked here; S_j, Q_j are raw sufficient statistics —
     ddof=1 enters only in the Lean-side derivation of the Fano ratio,
     per FORMAL_TARGET_W2_D7_v3.md)
+
+    Note on count_detectors: Implementation followed actual pinned reproduce.py line 28
+    (substring count of "DETECTOR" in circuit_ideal.stim); the binding prose
+    description ("parse the circuit, count DETECTOR instructions") informally
+    summarized this exact method.
 
     HALT condition (mirrors reproduce.py's P2): if len(detection_events.b8)
     != n_j * ceil(n_det / 8), stop immediately; the stream is malformed or
