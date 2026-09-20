@@ -1,0 +1,12 @@
+# Lean build artifacts
+*.olean
+*.ilean
+*.c
+.lake/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local scratch
+*.tmp
