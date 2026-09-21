@@ -1,9 +1,12 @@
 # Human Ratification Record
 
 > [!IMPORTANT]
-> **STATUS**: **DRAFT / NOT YET EFFECTIVE**  
+> **STATUS**: **RATIFIED BY CRYPTOGRAPHICALLY SIGNED COMMIT**
 > This record was drafted by assistant Ananke on branch `feat/provenance-repair-and-ratification`.  
-> It becomes legally and procedurally effective ONLY upon a personal, cryptographically signed commit (`git commit -S`) by Ivan Nestorov.
+> It becomes procedurally effective through a personal SSH-signed Git commit by Ivan Nestorov.
+
+**Signing identity**: `Ivan Nestorov <volmax.core@gmail.com>`
+**Signing key fingerprint**: `SHA256:5aVclA4mSj525gNohpxgBArgTo8qWvUbftMsGUs2TLw`
 
 **Ratifier**: Ivan Nestorov  
 **ORCID**: [0009-0006-7940-9539](https://orcid.org/0009-0006-7940-9539)  
@@ -14,7 +17,7 @@
 
 ## Ratification Declaration
 
-Upon cryptographic signing, I formally ratify the technical artifact produced for the exact-rational verification of the $W_2, d=7$ Fano-factor component over Google Willow experimental data:
+I formally ratify the technical artifact produced for the exact-rational verification of the $W_2, d=7$ Fano-factor component over Google Willow experimental data:
 
 - **Target Specification SHA-256**:
   `02c9f057f3c80636a9287e4265f83e8d6e649f895f8268de7d4291ed16dbdb50`  
@@ -46,4 +49,5 @@ Upon cryptographic signing, I formally ratify the technical artifact produced fo
    with zero axioms in Lean 4.34.0.
 
 Draft prepared by: Ananke  
-Ratification signature pending: **Ivan Nestorov**  
+Human ratifier: **Ivan Nestorov**
+Cryptographic authority: SSH-signed Git commit carrying this ratification record.
