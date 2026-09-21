@@ -11,6 +11,7 @@ During the development and pre-extraction freezing of the $W_2, d=7$ Lean certif
 - `claude_GATE_W2D7_FABLE_002.md`
 - `claude_GATE_W2D7_FABLE_003.md`
 - `claude_GATE_W2D7_FABLE_004.md`
+- `HISTORICAL_AGENT_GENERATED_FABLE_005.md`
 
 In the first independent review conducted by Claude (Anthropic / Sonnet) on 2026-09-21 (evaluating commit `cdcfc21`), the auditor established:
 

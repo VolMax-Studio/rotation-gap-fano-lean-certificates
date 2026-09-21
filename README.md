@@ -55,11 +55,11 @@ Gated commit:
 bc7c76e1d12062ba036d9ecddc4f2257928148d6
 
 Independent review:
-Sonnet Gate 001 — technical artifact survives review;
-repository authority/provenance repair pending.
+Sonnet Gate 001 (cdcfc21) & Sonnet Gate 002 (e670ff7) — technical artifact survives review;
+human pre-merge authorization signed; final ratification pending main tag.
 
 Authority status:
-DRAFT / PENDING HUMAN RATIFICATION COMMIT
+SIGNED HUMAN AUTHORIZATION / FINAL RATIFICATION PENDING MAIN TAG
 
 Post-extraction record:
 POST_EXTRACTION_RECORD_v3.sha256 (pins all 9 completed artifacts)
@@ -129,6 +129,7 @@ true
 
 ## Gate History / Audit Trail
 
-1. **Development Checkpoints (FABLE-002, 003, 004)**: Internal assistant review records used to guide iteration (see [`GATE_PROVENANCE_CORRECTION.md`](GATE_PROVENANCE_CORRECTION.md) for provenance attribution).
+1. **Development Checkpoints (FABLE-002, 003, 004, 005)**: Internal assistant review records used to guide iteration (see [`GATE_PROVENANCE_CORRECTION.md`](GATE_PROVENANCE_CORRECTION.md) and [`HISTORICAL_AGENT_GENERATED_FABLE_005.md`](HISTORICAL_AGENT_GENERATED_FABLE_005.md) for provenance attribution).
 2. **First Independent Review (Sonnet Gate 001)**: Performed by Claude (Anthropic, Sonnet) on commit `cdcfc21`. Verdict: Technical artifact **SURVIVES-REVIEW**; authority/provenance flagged for human ratification (see [`INDEPENDENT_GATE_SONNET_001.md`](INDEPENDENT_GATE_SONNET_001.md)).
-3. **Limitations & Governance**: Technical execution observations documented in [`POST_GATE_LIMITATIONS.md`](POST_GATE_LIMITATIONS.md); human ratification pending signed commit in [`HUMAN_RATIFICATION.md`](HUMAN_RATIFICATION.md).
+3. **Second Independent Review (Sonnet Gate 002)**: Evaluated signed pre-merge authorization commit `e670ff7` (see [`INDEPENDENT_GATE_SONNET_002.md`](INDEPENDENT_GATE_SONNET_002.md)).
+4. **Limitations & Governance**: Technical execution observations documented in [`POST_GATE_LIMITATIONS.md`](POST_GATE_LIMITATIONS.md); pre-merge authorization and final main ratification workflow established in [`HUMAN_RATIFICATION.md`](HUMAN_RATIFICATION.md).

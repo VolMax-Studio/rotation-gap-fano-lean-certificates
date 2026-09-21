@@ -1,13 +1,12 @@
-# Human Ratification Record
+# Human Authorization & Ratification Record
 
 > [!IMPORTANT]
-> **STATUS**: **RATIFIED BY CRYPTOGRAPHICALLY SIGNED COMMIT**
-> This record was drafted by assistant Ananke on branch `feat/provenance-repair-and-ratification`.  
-> It becomes procedurally effective through a personal SSH-signed Git commit by Ivan Nestorov.
+> **STATUS**: **SIGNED HUMAN AUTHORIZATION / FINAL RATIFICATION PENDING MAIN TAG**  
+> Commit `e670ff7` constitutes a personal, cryptographically signed pre-merge authorization by Ivan Nestorov.  
+> Final human ratification will be established via a signed annotated Git tag (`git tag -s w2d7-v1-ratified`) on the merged `main` commit following closure review.
 
-**Signing identity**: `Ivan Nestorov <volmax.core@gmail.com>`
-**Signing key fingerprint**: `SHA256:5aVclA4mSj525gNohpxgBArgTo8qWvUbftMsGUs2TLw`
-
+**Signing identity**: `Ivan Nestorov <volmax.core@gmail.com>`  
+**Signing key fingerprint**: `SHA256:5aVclA4mSj525gNohpxgBArgTo8qWvUbftMsGUs2TLw`  
 **Ratifier**: Ivan Nestorov  
 **ORCID**: [0009-0006-7940-9539](https://orcid.org/0009-0006-7940-9539)  
 **Date**: 2026-09-21  
@@ -15,9 +14,9 @@
 
 ---
 
-## Ratification Declaration
+## Authorization Declaration
 
-I formally ratify the technical artifact produced for the exact-rational verification of the $W_2, d=7$ Fano-factor component over Google Willow experimental data:
+I formally authorize the technical artifact produced for the exact-rational verification of the $W_2, d=7$ Fano-factor component over Google Willow experimental data for PR merge and final ratification:
 
 - **Target Specification SHA-256**:
   `02c9f057f3c80636a9287e4265f83e8d6e649f895f8268de7d4291ed16dbdb50`  
@@ -38,16 +37,18 @@ I formally ratify the technical artifact produced for the exact-rational verific
 ## Provenance and Governance Acknowledgment
 
 1. **Review Provenance**:
-   I acknowledge that earlier documents named `claude_GATE_W2D7_FABLE_002.md`, `claude_GATE_W2D7_FABLE_003.md`, and `claude_GATE_W2D7_FABLE_004.md` were internal assistant-generated evaluation checkpoints created during protocol design, and were **not** independent verdicts issued by Anthropic or Claude.
+   I acknowledge that earlier documents named `claude_GATE_W2D7_FABLE_002.md`, `claude_GATE_W2D7_FABLE_003.md`, `claude_GATE_W2D7_FABLE_004.md`, and `HISTORICAL_AGENT_GENERATED_FABLE_005.md` were internal assistant-generated evaluation checkpoints created during protocol design, and were **not** independent verdicts issued by Anthropic or Claude.
 
-2. **First Independent Review**:
-   The first authentic independent review was performed by Claude (Anthropic, Sonnet) on commit `cdcfc21`, as documented in [`INDEPENDENT_GATE_SONNET_001.md`](INDEPENDENT_GATE_SONNET_001.md). That audit independently recomputed the exact fraction, executed the Lean 4 proof without axioms, verified negative controls, and confirmed that the mathematical and custody artifact survives review.
+2. **Independent Review**:
+   The first authentic independent review was performed by Claude (Anthropic, Sonnet) on commit `cdcfc21`, as documented in [`INDEPENDENT_GATE_SONNET_001.md`](INDEPENDENT_GATE_SONNET_001.md). That audit independently recomputed the exact fraction, executed the Lean 4 proof without axioms, verified negative controls, and confirmed that the mathematical and custody artifact survives review. Subsequent closure evaluations are documented in [`INDEPENDENT_GATE_SONNET_002.md`](INDEPENDENT_GATE_SONNET_002.md).
 
-3. **Chain of Authority**:
-   As the human author and ratifier, I ratify the verified Lean 4 certificate theorem `w2_d7_certificate` proving:
-   $$2.795 < W_{2,d=7}^{exact} < 2.805$$
-   with zero axioms in Lean 4.34.0.
+3. **Chain of Authority & Two-Stage Ratification**:
+   - **Stage 1 (Pre-merge Authorization)**: Established by the SSH-signed Git commit on the feature branch.
+   - **Stage 2 (Final Ratification)**: To be established via a cryptographic signed annotated tag (`git tag -s w2d7-v1-ratified`) on the merged commit on `main`.
 
-Draft prepared by: Ananke  
-Human ratifier: **Ivan Nestorov**
-Cryptographic authority: SSH-signed Git commit carrying this ratification record.
+As the human author and ratifier, I authorize the verified Lean 4 certificate theorem `w2_d7_certificate` proving:
+$$2.795 < W_{2,d=7}^{exact} < 2.805$$
+with zero axioms in Lean 4.34.0.
+
+Human author and ratifier: **Ivan Nestorov**  
+Cryptographic authority: SSH-signed Git commit carrying this authorization record; final ratification via signed tag on `main`.
