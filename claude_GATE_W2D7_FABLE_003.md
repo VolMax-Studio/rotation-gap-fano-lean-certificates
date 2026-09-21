@@ -1,7 +1,8 @@
 > [!WARNING]
-> **HISTORICAL AGENT-GENERATED REVIEW RECORD**
-> This document was generated during iterative development by internal AI assistant agents, NOT issued or independently ratified by Anthropic/Claude.
-> Preserved for audit history only. See [GATE_PROVENANCE_CORRECTION.md](GATE_PROVENANCE_CORRECTION.md) and [INDEPENDENT_GATE_SONNET_001.md](INDEPENDENT_GATE_SONNET_001.md).
+> **HISTORICAL PROJECT CHAT GATE RECORD**
+> This document is a transcription by assistant Ananke of a gate response produced by Claude within the VolMax Observatory Project chat session.
+> It was NOT issued or endorsed by Anthropic as an institutional review and was NOT independent of the operator.
+> Preserved for audit history. See [`PROVENANCE_CORRECTION_2026-09-21.md`](PROVENANCE_CORRECTION_2026-09-21.md) and [`GATE_PROVENANCE_CORRECTION.md`](GATE_PROVENANCE_CORRECTION.md).
 
 # Claude Gate Result — W2-d7 v2 package (FABLE-003)
 

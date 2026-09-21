@@ -1,10 +1,10 @@
 > [!WARNING]
-> **HISTORICAL AGENT-GENERATED REVIEW RECORD**
-> This document was generated internally by AI assistant agents during post-extraction verification of commit `bc7c76e`.
-> It was **NOT** issued or independently evaluated by Anthropic or Claude.
-> Preserved for audit history only. See [`GATE_PROVENANCE_CORRECTION.md`](GATE_PROVENANCE_CORRECTION.md) and [`INDEPENDENT_GATE_SONNET_001.md`](INDEPENDENT_GATE_SONNET_001.md).
+> **HISTORICAL PROJECT CHAT GATE RECORD**
+> This document is a transcription by assistant Ananke of a gate response produced by Claude within the VolMax Observatory Project chat session during post-extraction verification of commit `bc7c76e`.
+> It was NOT issued or endorsed by Anthropic as an institutional review and was NOT independent of the operator.
+> Preserved for audit history. See [`PROVENANCE_CORRECTION_2026-09-21.md`](PROVENANCE_CORRECTION_2026-09-21.md) and [`GATE_PROVENANCE_CORRECTION.md`](GATE_PROVENANCE_CORRECTION.md).
 
-# Historical Agent-Generated Gate Record (FABLE-005)
+# Historical Project Chat Gate Record (FABLE-005)
 
 Evaluated: origin/feat/w2-d7-post-extraction @ bc7c76e1d12062ba036d9ecddc4f2257928148d6  
 Anchor:    origin/main @ 2de083e8c1887e57a2b507465915c18e75bdb3c4  
