@@ -1,3 +1,8 @@
+> [!WARNING]
+> **HISTORICAL AGENT-GENERATED REVIEW RECORD**
+> This document was generated during iterative development by internal AI assistant agents, NOT issued or independently ratified by Anthropic/Claude.
+> Preserved for audit history only. See [GATE_PROVENANCE_CORRECTION.md](GATE_PROVENANCE_CORRECTION.md) and [INDEPENDENT_GATE_SONNET_001.md](INDEPENDENT_GATE_SONNET_001.md).
+
 # Claude Gate Result — W2 d=7 Formal Target (FABLE-002)
 
 Date: 2026-09-20

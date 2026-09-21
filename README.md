@@ -54,14 +54,15 @@ Pre-extraction anchor:
 Gated commit:
 bc7c76e1d12062ba036d9ecddc4f2257928148d6
 
-Human ratification merge:
-ad08795308e40ff38b68826195296b0e515d38c2
-
-External gate:
-FABLE-005 — SURVIVES-REVIEW
+Independent review:
+Sonnet Gate 001 — technical artifact survives review;
+repository authority/provenance repair pending.
 
 Post-extraction record:
-POST_EXTRACTION_RECORD_v3.sha256 (pins all 9 artifacts)
+POST_EXTRACTION_RECORD_v3.sha256 (pins all 9 completed artifacts)
+
+Pre-extraction freeze record:
+FREEZE_RECORD_v3.sha256 (pins pre-extraction target skeleton)
 ```
 
 ---
@@ -69,6 +70,9 @@ POST_EXTRACTION_RECORD_v3.sha256 (pins all 9 artifacts)
 ## Reproduce (30 Seconds)
 
 Requires [Lean 4](https://lean-lang.org/) (tested on 4.34.0):
+
+> [!NOTE]
+> `FREEZE_RECORD_v3.sha256` represents the pre-extraction freeze snapshot (pinning the initial specification and binding skeleton before unpacking raw data). `POST_EXTRACTION_RECORD_v3.sha256` is the post-extraction record pinning the completed artifacts and proof files.
 
 ```bash
 # 1. Verify integrity of all post-extraction evidence
@@ -122,7 +126,6 @@ true
 
 ## Gate History / Audit Trail
 
-1. **FABLE-002**: Identified blockers on v1 target (outer rejection boundary vs verification band, implication premise vacuity trap, list recursion stack depth).
-2. **FABLE-003**: Mandated git-freeze anchor, rule citation, and fixed byte-lexicographical directory ordering, establishing `FORMAL_TARGET_W2_D7_v3.md`.
-3. **FABLE-004**: Blocked automated direct commits to `main`; required human ratification merge PR #1 (`2de083e`).
-4. **FABLE-005**: Audited post-extraction candidate `bc7c76e`. Verdict: **SURVIVES-REVIEW**. Ratified on `main` via PR #3 (`ad08795`).
+1. **Development Checkpoints (FABLE-002, 003, 004)**: Internal assistant review records used to guide iteration (see [`GATE_PROVENANCE_CORRECTION.md`](GATE_PROVENANCE_CORRECTION.md) for provenance attribution).
+2. **First Independent Review (Sonnet Gate 001)**: Performed by Claude (Anthropic / Sonnet) on commit `cdcfc21`. Verdict: Technical artifact **SURVIVES-REVIEW**; authority/provenance flagged for human ratification (see [`INDEPENDENT_GATE_SONNET_001.md`](INDEPENDENT_GATE_SONNET_001.md)).
+3. **Limitations & Governance**: Technical execution observations documented in [`POST_GATE_LIMITATIONS.md`](POST_GATE_LIMITATIONS.md); authority ratified in [`HUMAN_RATIFICATION.md`](HUMAN_RATIFICATION.md).
