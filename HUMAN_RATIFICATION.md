@@ -1,5 +1,10 @@
 # Human Ratification Record
 
+> [!IMPORTANT]
+> **STATUS**: **DRAFT / NOT YET EFFECTIVE**  
+> This record was drafted by assistant Ananke on branch `feat/provenance-repair-and-ratification`.  
+> It becomes legally and procedurally effective ONLY upon a personal, cryptographically signed commit (`git commit -S`) by Ivan Nestorov.
+
 **Ratifier**: Ivan Nestorov  
 **ORCID**: [0009-0006-7940-9539](https://orcid.org/0009-0006-7940-9539)  
 **Date**: 2026-09-21  
@@ -9,7 +14,7 @@
 
 ## Ratification Declaration
 
-I formally ratify the technical artifact produced for the exact-rational verification of the $W_2, d=7$ Fano-factor component over Google Willow experimental data:
+Upon cryptographic signing, I formally ratify the technical artifact produced for the exact-rational verification of the $W_2, d=7$ Fano-factor component over Google Willow experimental data:
 
 - **Target Specification SHA-256**:
   `02c9f057f3c80636a9287e4265f83e8d6e649f895f8268de7d4291ed16dbdb50`  
@@ -33,13 +38,12 @@ I formally ratify the technical artifact produced for the exact-rational verific
    I acknowledge that earlier documents named `claude_GATE_W2D7_FABLE_002.md`, `claude_GATE_W2D7_FABLE_003.md`, and `claude_GATE_W2D7_FABLE_004.md` were internal assistant-generated evaluation checkpoints created during protocol design, and were **not** independent verdicts issued by Anthropic or Claude.
 
 2. **First Independent Review**:
-   The first authentic independent review was performed by Claude 3.5 Sonnet on commit `cdcfc21`, as documented in [`INDEPENDENT_GATE_SONNET_001.md`](INDEPENDENT_GATE_SONNET_001.md). That audit independently recomputed the exact fraction, executed the Lean 4 proof without axioms, verified negative controls, and confirmed that the mathematical and custody artifact survives review.
+   The first authentic independent review was performed by Claude (Anthropic, Sonnet) on commit `cdcfc21`, as documented in [`INDEPENDENT_GATE_SONNET_001.md`](INDEPENDENT_GATE_SONNET_001.md). That audit independently recomputed the exact fraction, executed the Lean 4 proof without axioms, verified negative controls, and confirmed that the mathematical and custody artifact survives review.
 
 3. **Chain of Authority**:
-   As the human author and principal investigator, I ratify the verified Lean 4 certificate theorem `w2_d7_certificate` proving:
+   As the human author and ratifier, I ratify the verified Lean 4 certificate theorem `w2_d7_certificate` proving:
    $$2.795 < W_{2,d=7}^{exact} < 2.805$$
    with zero axioms in Lean 4.34.0.
 
-Signed:  
-**Ivan Nestorov**  
-*2026-09-21*
+Draft prepared by: Ananke  
+Ratification signature pending: **Ivan Nestorov**  
