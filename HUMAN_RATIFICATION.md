@@ -2,7 +2,7 @@
 
 > [!IMPORTANT]
 > **STATUS**: **SIGNED HUMAN AUTHORIZATION / FINAL RATIFICATION PENDING MAIN TAG**  
-> Commit `e670ff7` constitutes a personal, cryptographically signed pre-merge authorization by Ivan Nestorov.  
+> The personal SSH-signed Git commit carrying this authorization record constitutes Ivan Nestorov's pre-merge authorization of the complete branch state represented by that commit.  
 > Final human ratification will be established via a signed annotated Git tag (`git tag -s w2d7-v1-ratified`) on the merged `main` commit following closure review.
 
 **Signing identity**: `Ivan Nestorov <volmax.core@gmail.com>`  
@@ -43,7 +43,7 @@ I formally authorize the technical artifact produced for the exact-rational veri
    The first authentic independent review was performed by Claude (Anthropic, Sonnet) on commit `cdcfc21`, as documented in [`INDEPENDENT_GATE_SONNET_001.md`](INDEPENDENT_GATE_SONNET_001.md). That audit independently recomputed the exact fraction, executed the Lean 4 proof without axioms, verified negative controls, and confirmed that the mathematical and custody artifact survives review. Subsequent closure evaluations are documented in [`INDEPENDENT_GATE_SONNET_002.md`](INDEPENDENT_GATE_SONNET_002.md).
 
 3. **Chain of Authority & Two-Stage Ratification**:
-   - **Stage 1 (Pre-merge Authorization)**: Established by the SSH-signed Git commit on the feature branch.
+   - **Stage 1 (Pre-merge Authorization)**: Established by the SSH-signed Git commit carrying this record and the complete repaired branch tree.
    - **Stage 2 (Final Ratification)**: To be established via a cryptographic signed annotated tag (`git tag -s w2d7-v1-ratified`) on the merged commit on `main`.
 
 As the human author and ratifier, I authorize the verified Lean 4 certificate theorem `w2_d7_certificate` proving:
